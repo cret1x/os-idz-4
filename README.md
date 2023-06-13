@@ -15,6 +15,7 @@ gcc server.c ../queue.c -o server -lrt -lpthread
 ```
 В заданиях 6-10:
 ```sh
+gcc cutter.c -o cutter
 gcc client.c -o client
 gcc listener.c -o listener
 gcc server.c ../queue.c -o server -lrt -lpthread
